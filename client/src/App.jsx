@@ -9,7 +9,7 @@ function App() {
   const shortenUrl = async () => {
     try {
       const response = await axios.post(
-        "https://url-shortner-2.onrender.com/api/shorten",
+        "https://urlshortner-tcjf.onrender.com/api/shorten",
         {
           originalUrl,
         }
